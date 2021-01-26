@@ -13,6 +13,8 @@
 		5B2340DA25BF4E8D0015ED22 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2340C525BF4E890015ED22 /* ContentView.swift */; };
 		5B2340DB25BF4E8D0015ED22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B2340C625BF4E8D0015ED22 /* Assets.xcassets */; };
 		5B2340DC25BF4E8D0015ED22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B2340C625BF4E8D0015ED22 /* Assets.xcassets */; };
+		5BF469FB25C0857C0047989C /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF469FA25C0857C0047989C /* ImagePicker.swift */; };
+		5BF469FC25C0857C0047989C /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF469FA25C0857C0047989C /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,7 @@
 		5B2340D325BF4E8D0015ED22 /* Instafilter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instafilter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B2340D525BF4E8D0015ED22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B2340D625BF4E8D0015ED22 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		5BF469FA25C0857C0047989C /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,7 @@
 				5B2340C425BF4E890015ED22 /* InstafilterApp.swift */,
 				5B2340C525BF4E890015ED22 /* ContentView.swift */,
 				5B2340C625BF4E8D0015ED22 /* Assets.xcassets */,
+				5BF469FA25C0857C0047989C /* ImagePicker.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -187,6 +191,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BF469FB25C0857C0047989C /* ImagePicker.swift in Sources */,
 				5B2340D925BF4E8D0015ED22 /* ContentView.swift in Sources */,
 				5B2340D725BF4E8D0015ED22 /* InstafilterApp.swift in Sources */,
 			);
@@ -196,6 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BF469FC25C0857C0047989C /* ImagePicker.swift in Sources */,
 				5B2340DA25BF4E8D0015ED22 /* ContentView.swift in Sources */,
 				5B2340D825BF4E8D0015ED22 /* InstafilterApp.swift in Sources */,
 			);
